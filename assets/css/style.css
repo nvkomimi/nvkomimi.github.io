@@ -12,7 +12,7 @@ main {
     height: 100vh;
 }
 main>div {
-    max-width: 15em;
+    max-width: 315px;
 }
 a {
     text-decoration: none;
@@ -41,7 +41,4 @@ hr {
 }
 p>span {
     float: right;
-}
-img {
-    width: 100%;
 }
