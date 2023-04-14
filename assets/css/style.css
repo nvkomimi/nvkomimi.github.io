@@ -42,3 +42,6 @@ hr {
 p>span {
     float: right;
 }
+object {
+    outline: none !important;
+}
