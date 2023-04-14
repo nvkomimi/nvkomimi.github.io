@@ -37,6 +37,7 @@ p,h1 {
 }
 hr {
     color: pink;
+    border-color: pink;
 }
 p>span {
     float: right;
