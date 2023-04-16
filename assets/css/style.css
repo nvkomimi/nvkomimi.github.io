@@ -30,17 +30,19 @@ a:hover {
 }
 h1 {
     text-align: center;
+    margin: 0 0 0.3em 0;
+    padding: 0;
 }
-p,h1 {
+p {
     margin: 0;
     padding: 0.35em;
+}
+p>span {
+    float: right;
 }
 hr {
     color: pink;
     border-color: pink;
-}
-p>span {
-    float: right;
 }
 object {
     outline: none !important;
