@@ -5,7 +5,7 @@ body {
     margin: 0 auto;
     padding: 0 0.75em;
     cursor: default;
-    background: linear-gradient(rgba(0, 0, 0, 0.97), rgba(0, 0, 0, 0.88)),url("https://i.giphy.com/media/NB59B0xtA9wc0/giphy.webp");
+    background: linear-gradient(rgba(0, 0, 0, 0.97), rgba(0, 0, 0, 0.88)),url("https://media.tenor.com/mbUMQNAq8scAAAAC/touhou-cirno.gif");
 }
 main {
     display: flex;
@@ -25,6 +25,7 @@ main>div {
 .socials a {
     text-decoration: none;
     color: rgb(255, 255, 255);
+    background-color: black;
     transition: all 0.3s ease-out;
     padding: 0.35em 0.82em;
     display: inline-flex;
