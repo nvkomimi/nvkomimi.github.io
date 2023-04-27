@@ -1,6 +1,6 @@
 # The Schrödinger License r3
 
-Copyright 0yen4snafu
+Copyright 0yen45
 
 The Schrödinger License is licensed under the terms of The Schrödinger License. 
 
