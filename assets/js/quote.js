@@ -3,7 +3,8 @@ var fuck = [
     "Have you noticed me?", 
     "Pretend like you never saw me.",
     "I want to go home.",
-    "Don't bother me."
+    "Don't bother me.",
+    "You shouldn't have expected anything from me."
 ];
 
 var me = Math.floor(fuck.length * Math.random()); 
