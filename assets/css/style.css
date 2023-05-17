@@ -3,8 +3,9 @@ body {
     margin: 0 auto;
     padding: 0 0.75em;
     cursor: default;
-    background: linear-gradient(rgba(0, 0, 0, 0.975), rgba(20, 0, 12, 0.925)),url("https://avatars.githubusercontent.com/u/76652465?v=4");
+    background: linear-gradient(rgba(18, 0, 12, 0.8), rgba(0, 0, 0, 0.9)), center / cover no-repeat url("https://avatars.githubusercontent.com/u/76652465?v=4"),black;
     color: white;
+    backdrop-filter: blur(1em);
 }
 main {
     display: flex;
@@ -12,18 +13,14 @@ main {
     justify-content: center;
     height: 100vh;
 }
-main>div {
-    padding: 1em;
-    backdrop-filter: blur(0.5em);
-}
 ::selection {
-    background-color: #db249580 !important;
+    background-color: #55084780 !important;
     color: white;
 }
 h1 {
     margin: 0;
     padding: 0;
-    font-size: 40pt;
+    font-size: 50pt;
     text-align: center;
     font-weight: 200;
 }
