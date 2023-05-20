@@ -1,12 +1,13 @@
 var fuck = [
-    "Enough motivation for nothing.", 
-    "Have you noticed me?", 
-    "Pretend like you never saw me.",
-    "I want to go home.",
-    "Don't bother me.",
-    "You shouldn't have expected anything from me.",
-    "I'm so glad we live only once, I can't do this again",
-    "I really don't care"
+    "enough motivation for nothing.", 
+    "have you noticed me?", 
+    "pretend like you never saw me.",
+    "i want to go home.",
+    "don't bother me.",
+    "you shouldn't have expected anything from me.",
+    "i'm so glad we live only once, i can't do this again",
+    "i really don't care",
+    "eat glass and die"
 ];
 
 var me = Math.floor(fuck.length * Math.random()); 
