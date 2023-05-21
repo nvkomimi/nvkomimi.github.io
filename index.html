@@ -9,40 +9,66 @@
         <link rel="shortcut icon" href="/favicon.png">
         <link rel="apple-touch-icon" href="/favicon.png">
         
-        <meta name="theme-color" content="#4f081b" />
+        <meta name="theme-color" content="#4f081b">
 
         <style>
             body {
-                margin: 0;
-                padding: 0;
+                margin: 0 auto;
+                padding: 0 0.75em;
                 color: #222;
                 background: linear-gradient(#fafafadb, #fafafadb),center / cover url("https://avatars.githubusercontent.com/u/76652465?v=4"),#fafafa;
                 backdrop-filter: blur(1em);
-                font: 14pt/1.6 -apple-system,system-ui;
-                font-weight: 200;
+                font: 14pt/1.6 monospace;
+                font-weight: 300;
+                height: 100vh;
+                cursor: default;
             }
             main {
-                padding: 0 0.5em;
-                margin: 2em auto;
-                max-width: 800px;
+                display: flex;
+                justify-content: center;
+                height: 100vh;
+            }
+            main>div {
+                max-width: 35em;
+            }
+            ul {
+                list-style-type: none;
+            }
+            a {
+                color: #550847;
+            }
+            p[role="quote"] {
+                font-style: italic;
+                font-weight: 200;
+            }
+            ::selection {
+                background-color: #55084780 !important;
+                color: white;
             }
         </style>
     </head>
     <body>
         <main>
-            <script src="quote.js"></script>
-            <ul>
-                <li><a href="&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#x75;&#x6e;&#x6c;&#x77;&#x6c;&#x79;&#x40;&#x70;&#x72;&#x6f;&#x74;&#x6f;&#x6e;&#x2e;&#x6d;&#x65;">email</a></li>
-                <li><a href="https://github.com/0yen45">github</a></li>
-            </ul>
-            <img src="https://avatars.githubusercontent.com/u/76652465?v=4" height="184px">
-            <p>
-            i more or less don't have 
-            interest in anything or any motivation 
-            to do anything, i'm basically a 
-            good for nothing loser,
-            anyways hope you wasted a good bit of time on this website
-            </p>
+            <div>
+                <script src="quote.js"></script>
+                <ul>
+                    <li><a href="&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#x75;&#x6e;&#x6c;&#x77;&#x6c;&#x79;&#x40;&#x70;&#x72;&#x6f;&#x74;&#x6f;&#x6e;&#x2e;&#x6d;&#x65;">email</a></li>
+                    <li><a href="https://github.com/0yen45">github</a></li>
+                    <!--
+                    <li><a href="">matrix</a></li>
+                    <li><a href="">mastodon</a></li>
+                    -->
+                </ul>
+                <img src="https://avatars.githubusercontent.com/u/76652465?v=4" height="184px">
+                <p style="text-align: justify">
+                        i more or less don't have 
+                        interest in anything or any motivation 
+                        to do anything, i'm basically a 
+                        good for nothing loser,
+                        anyways i hope you wasted 
+                        a good bit of time on this stupid website
+                </p>
+            </div>
         </main>
     </body>
 </html>

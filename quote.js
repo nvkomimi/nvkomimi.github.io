@@ -7,7 +7,8 @@ var fuck = [
     "you shouldn't have expected anything from me.",
     "i'm so glad we live only once, i can't do this again",
     "i really don't care",
-    "eat glass and die"
+    "eat glass and die",
+    "please"
 ];
 
 var me = Math.floor(fuck.length * Math.random()); 
