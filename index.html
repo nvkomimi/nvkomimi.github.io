@@ -17,16 +17,16 @@
                 padding: 0 0.75em;
                 color: #222;
                 background: linear-gradient(#fafafadb, #fafafadb),center / cover url("https://avatars.githubusercontent.com/u/76652465?v=4"),#fafafa;
-                backdrop-filter: blur(1em);
                 font: 14pt/1.6 monospace;
                 font-weight: 300;
-                height: 100vh;
                 cursor: default;
+                text-shadow: #FFF 1px 0 10px;
             }
             main {
                 display: flex;
                 justify-content: center;
-                height: 100vh;
+                min-height: 100vh;
+                backdrop-filter: blur(1em);
             }
             main>div {
                 max-width: 35em;
@@ -34,8 +34,19 @@
             ul {
                 list-style-type: none;
             }
+            li {
+                margin: 0.3em;
+            }
             a {
                 color: #550847;
+                text-decoration: none;
+                transition: all .3s ease-out;
+                border-bottom: 1px solid transparent;
+                padding: 0.3em;
+            }
+            a:hover {
+                text-shadow: #ffaff0 0 0 2px;
+                border-color: #550847;
             }
             p[role="quote"] {
                 font-style: italic;
@@ -62,7 +73,7 @@
                     <li><a href="https://myanimelist.net/profile/nvkomimi">myanimelist</a></li>
                 </ul>
                 <img src="https://avatars.githubusercontent.com/u/76652465?v=4" height="184px">
-                <p style="text-align: justify">
+                <p style="text-align: justify;padding-bottom: 5em;">
                         i more or less don't have 
                         interest in anything or any motivation 
                         to do anything, i'm basically a 
